@@ -10,7 +10,7 @@ To run this project locally, follow these steps:
 
 Clone the repository:
 
-```git clone https://github.com/your-username/unsplash-news-feed-profile.git```
+```git clone https://github.com/rahulkushwaha-in/Groww.git```
 #### Change  directory
 ```cd unsplash-news-feed-profile```
 
