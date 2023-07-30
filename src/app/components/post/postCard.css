@@ -76,7 +76,7 @@ each class does: */
     display: flex;
     padding: 1rem;
     align-items: center;
-    justify-content: space-between;
+    justify-content:space-around;
     cursor: pointer;
     border-top: 1px solid rgba(0, 0, 0, 0.1); 
   }
@@ -96,7 +96,7 @@ each class does: */
   }
   
   /* Media query for responsiveness */
-  @media (max-width: 768px) {
+  @media (max-width: 921px) {
     .postCard-section {
       width: 100%; 
       margin-top: 1rem;
@@ -118,5 +118,8 @@ each class does: */
     .like-section {
       padding: 0.5rem;
     }
+    .like-section h3{
+      display: none;
+  }
   }
   

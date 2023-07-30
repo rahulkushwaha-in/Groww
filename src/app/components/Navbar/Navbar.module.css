@@ -19,6 +19,13 @@
   .navbarBrand {
     font-size: 1.5rem;
     font-weight: bold;
+    text-decoration: none;
+  }
+  .navbarBrand  a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 2rem;
   }
   
   .navbarNav {
@@ -28,7 +35,7 @@
   }
   
   .navItem {
-    margin-right: 1rem;
+    margin-right: 0rem;
   }
   
   .navLink {
@@ -49,22 +56,22 @@
       flex-direction: column;
     }
   
-    .navbar-brand {
+    .navbarBrand {
       margin-bottom: 1rem;
     }
   
-    .navbar-nav {
+    .navbarNav {
       margin-top: 1rem;
       flex-direction: column;
       align-items: center;
     }
   
-    .nav-item {
+    .navItem {
       margin-right: 0;
       margin-bottom: 1rem;
     }
     
-    .navbar-nav {
+    .navbarNav {
       display: none;
     }
   
