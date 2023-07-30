@@ -12,7 +12,7 @@ Clone the repository:
 
 ```git clone https://github.com/rahulkushwaha-in/Groww.git```
 #### Change  directory
-```cd unsplash-news-feed-profile```
+```cd groww```
 
 ## Install the dependencies:
 ```npm install```
