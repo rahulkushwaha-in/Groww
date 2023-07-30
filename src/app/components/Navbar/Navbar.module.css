@@ -1,0 +1,74 @@
+/* The code you provided is CSS code that defines the styling for a navbar. */
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    padding: 1rem;
+    background-color: #ffffff;
+    color: #ffffff;
+    z-index: 100;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+   backdrop-filter: blur(9.6px);
+   -webkit-backdrop-filter: blur(9.6px);
+  }
+  .navbarBrand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbarNav {
+    display: flex;
+    align-items: center;
+    list-style: none;
+  }
+  
+  .navItem {
+    margin-right: 1rem;
+  }
+  
+  .navLink {
+    color: #000000;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+  }
+  
+  .navLink:hover {
+    background-color: #f6f6f6;
+    border-radius: 999px;
+  }
+  
+  /* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+    }
+  
+    .navbar-brand {
+      margin-bottom: 1rem;
+    }
+  
+    .navbar-nav {
+      margin-top: 1rem;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .nav-item {
+      margin-right: 0;
+      margin-bottom: 1rem;
+    }
+    
+    .navbar-nav {
+      display: none;
+    }
+  
+    .navbar.show-nav {
+      display: flex;
+    }
+  }

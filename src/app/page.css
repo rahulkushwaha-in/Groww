@@ -1,0 +1,41 @@
+/* The code you provided is CSS code. It defines the styles for different elements in a web page
+layout. */
+.body-container{
+    width: 100%;
+    display: flex;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+  
+}
+.left-sidebar{
+    width: 20%;
+}
+.main-feed-section{
+    width: 50%;
+    margin: 0 auto;
+}
+.right-sidebar{
+    width: 20%;
+}
+.left-sidebar h1{
+    color: rgb(220, 23, 23);
+}
+.left-sidebar .inner-div1{
+    background-color: blueviolet;
+}
+.left-sidebar .inner-div2{
+    background-color: rgb(176, 131, 219);
+}
+@media (max-width:768px) {
+    .body-container{
+        width: 100%;
+    }.right-sidebar{
+        display: none;
+    }
+    .left-sidebar{
+        display: none;
+    }
+    .main-feed-section{
+        width: 98%;
+    }
+}

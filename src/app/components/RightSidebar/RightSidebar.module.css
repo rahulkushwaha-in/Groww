@@ -1,0 +1,110 @@
+
+
+/* The CSS code provided defines the styles for a right sidebar element. */
+.rightSidebar {
+  position: fixed;  
+  right: 0rem;
+  top: 4.2rem;
+  width: 20%;
+  height: 90vh;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9.6px);
+  -webkit-backdrop-filter: blur(9.6px);
+  z-index: 10;
+}
+
+.header {
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+  background-color: #eef1f5;
+  border-radius: 10px;
+}
+
+.profileSection {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.profileImage {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+}
+
+.profileName {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.profileUsername {
+  color: #666;
+}
+
+.nav {
+  margin-top: 2rem;
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.nav li {
+  margin-bottom: 1rem;
+}
+
+.nav a {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: #1da1f2;
+  font-weight: bold;
+}
+
+.nav a i {
+  margin-right: 1rem;
+  font-size: 1.2rem;
+}
+
+.nav a:hover {
+  background-color: #f0f2f5;
+  border-radius: 999px;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .rightSidebar {
+    position: static; 
+    width: 100%;
+    height: auto; 
+    margin: 1rem auto; 
+  }
+
+  .profileImage {
+    width: 50px; 
+    height: 50px;
+  }
+
+  .profileName {
+    font-size: 1rem;
+  }
+
+  .nav {
+    margin-top: 1rem; 
+  }
+}
+@media (max-width: 768px) {
+  .rightSidebar {
+    display: none;
+  }
+}

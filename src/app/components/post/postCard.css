@@ -1,0 +1,122 @@
+
+
+/* The CSS code you provided defines the styles for a post card component. Here's a breakdown of what
+each class does: */
+.postCard-section {
+    margin-top: 4rem;
+    width: 100%; 
+    height: auto; 
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden; 
+    background: rgba(255, 255, 255, 0.27);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(15.7px);
+    -webkit-backdrop-filter: blur(15.7px);
+    border: 1px solid rgba(255, 255, 255, 0.41);
+  }
+  
+  .postCard-profile-section  {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    padding-bottom: 0;
+
+  }
+  .postCard-profile-section .username{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    padding-bottom: 0;
+    color: black;
+    text-decoration: none;
+  }
+  .postCard-profile-section .username:hover{
+    opacity:.8;
+  }
+  .postCard-profile-section img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    object-fit: cover;
+  
+  }
+  
+  .feed-section {
+
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    padding: 1rem;
+   
+  }
+  .feed-section img {
+    width: 100%; 
+    height:100% ; 
+    border-radius: 10px;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+  }
+  
+  .feed-section p {
+    width: 95%;
+    margin: 0.5rem 1rem; 
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  .like-section {
+   
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    border-top: 1px solid rgba(0, 0, 0, 0.1); 
+  }
+  .like-section button{
+    width: 10rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    transition: 0.3s ease;
+    background-color: rgb(255, 255, 255);
+  }
+  .like-section button:hover{
+    background-color: rgb(244, 244, 244);
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    .postCard-section {
+      width: 100%; 
+      margin-top: 1rem;
+    }
+  
+    .postCard-profile-section img {
+      width: 30px;
+      height: 30px;
+    }
+  
+    .feed-section img {
+      margin: 0.5rem 0;
+    }
+  
+    .feed-section p {
+      font-size: 12px;
+    }
+  
+    .like-section {
+      padding: 0.5rem;
+    }
+  }
+  
